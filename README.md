@@ -22,11 +22,13 @@ Some features:
 - At the edge, there is a singularity. But space can also be extended beyond the edge to repeat itself (see Figure 3).  
 - Ships still disappear below horizons. It's not because Earth curves down, but because light curves up (Figure 4). The result is the same.
 
+### Figures
+
 ![Flat Earth Model](correct-flat-earth-improved.png)<br>
 *Figure 1: Flat Earth Model, aka Cylindrical Universe Model*
 
 ![Artemis II Trajectory](artemis/flat-earth-trajectory.png)<br>
-*Figure 2: Artemis II Trajectory on Flat Earth*
+*Figure 2: Artemis II Trajectory on Flat Earth. I was unable to find the whole trajectory, so it unfortunately doesn't start from the Earth's surface.*
 
 ![Endless Flat Earth](model/6K%20Earth%20Textures/Earth_Col_flat.png)<br>
 *Figure 3: Endless Flat Earth*
