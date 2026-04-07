@@ -5,18 +5,21 @@
 
 **Instead of round Earth in flat space, why not have flat Earth in round space?**
 
-It's not even that big of a _stretch_ - we live in a curved space-time anyways. And thanks to Einstein, all physics work in curved space-times just fine.
+It's not even that big of a *stretch* - we live in a curved space-time anyways. And thanks to Einstein, all physics work in curved space-times just fine.
 
-TL;DR: It's just a coordinate transformation of normal space to spherical coordinates with a logarithmic radial dimension.
+I plotted the Artemis trajectory as a "proof" that I am not just making it up (Figure 2).
+
+TL;DR: It is silly, just an exercise in weird maths, but it works. It's just a coordinate transformation of normal space to spherical coordinates with a logarithmic radial dimension.  Get a friendly physicist to explain it, if you don't trust me 😀
 
 Some features:
 
 - The Universe is a tall cylinder (Figure 1)
+- Earth is the only flat celestial object. Other stars/planets are ellipsoids.
 - Sun and moon are the same size: about 60km wide.
-- Astronauts on the Moon would be just around 3cm tall.
-- Stars are 3 times further than the Sun and reaaally tiny (as they should).
-- If you went to Australia, you would be elongated. If you stood on the South pole, you would wrap around the whole disc.
-- At the edge, there is a singularity. But space can also be extended beyond the edge to repeat itself (see Figure 3).
+- Things shrink when they travel upwards. Astronauts on the Moon would be just around 3cm tall.  
+- Stars are 3 times further than the Sun and reaaally tiny (as they should).  
+- If you went to Australia, you would be elongated. If you stood on the South pole, you would wrap around the whole disc.  
+- At the edge, there is a singularity. But space can also be extended beyond the edge to repeat itself (see Figure 3).  
 - Ships still disappear below horizons. It's not because Earth curves down, but because light curves up (Figure 4). The result is the same.
 
 ![Flat Earth Model](correct-flat-earth-improved.png)<br>
@@ -43,6 +46,9 @@ Sun Distance | 64,000 "km"
 Sun Diameter | 60 "km"
 Stellar Distances | 150,000 to 200,000 "km"
 Dome Distance | 280,000 "km"
+Dome Material | Big Bang 🤯
+
+### Formulas used for the datasheet
 
 All the distances $r_{round}$ from Earth center are converted into flat earth altitudes $r_{flat}$ based on the following formula:
 
@@ -84,12 +90,12 @@ $$z_0=R e^r \cos\theta,$$
 $$e^r={z_0\over R\cos\theta},$$
 $$r=\ln {z_0 \over R} - \ln \cos \theta.$$
 
-In our units, all light rays trace the same shape: $-\ln \cos \theta$, only with an and some $\phi$ weirdness applied.
+In our units, all light rays trace the same shape: $-\ln \cos \theta$ (disregarding $\phi$ for the moment).
 
 ![Solar Light Rays](solar-light-rays.png)<br>
 *Figure: Solar light rays.*
 
-The image abot shows full moon, but also the lunar eclipse. They differ only in minute position of the Moon.
+The image abot shows full moon, but also the lunar eclipse. The positions of celestial bodies in those cases is nearly the same.
 
 ### Observations
 
