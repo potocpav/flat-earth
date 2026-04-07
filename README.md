@@ -9,14 +9,14 @@ It's not even that big of a *stretch* - we live in a curved space-time anyways. 
 
 I plotted the Artemis trajectory as a "proof" that I am not just making it up (Figure 2).
 
-TL;DR: It is silly, just an exercise in weird maths, but it works. It's just a coordinate transformation of normal space to spherical coordinates with a logarithmic radial dimension.  Get a friendly physicist to explain it, if you don't trust me 😀
+TL;DR: It is silly, an exercise in weird maths, but it works. It's just a coordinate transformation of normal space to spherical coordinates with a logarithmic radial dimension.  Get a friendly physicist to explain it, if you don't trust me 😀
 
 Some features:
 
 - The Universe is a tall cylinder (Figure 1)
 - Earth is the only flat celestial object. Other stars/planets are ellipsoids.
 - Sun and moon are the same size: about 60km wide.
-- Things shrink when they travel upwards. Astronauts on the Moon would be just around 3cm tall.  
+- Things shrink when they travel upwards. Astronauts on the Moon would be only around 3cm tall.  
 - Stars are 3 times further than the Sun and reaaally tiny (as they should).  
 - If you went to Australia, you would be elongated. If you stood on the South pole, you would wrap around the whole disc.  
 - At the edge, there is a singularity. But space can also be extended beyond the edge to repeat itself (see Figure 3).  
