@@ -93,9 +93,7 @@ $$r=\ln {z_0 \over R} - \ln \cos \theta.$$
 In our units, all light rays trace the same shape: $-\ln \cos \theta$ (disregarding $\phi$ for the moment).
 
 ![Solar Light Rays](solar-light-rays.png)<br>
-*Figure: Solar light rays.*
-
-The image abot shows full moon, but also the lunar eclipse. The positions of celestial bodies in those cases is nearly the same.
+*Figure: Solar light rays. This image shows full moon, and also the lunar eclipse. The positions of celestial bodies in those two cases is nearly identical.*
 
 ### Observations
 
