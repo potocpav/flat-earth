@@ -1,7 +1,7 @@
 
 # Actually Correct Flat-Earth Model
 
-[by Pavel Potoček](https://potocpav.github.io/) · [Original Reddit post](https://www.reddit.com/r/flatearth/comments/1sey3nh/behold_an_actually_correct_flat_earth_model/)
+[by Pavel Potoček](https://potocpav.github.io/) · [GitHub Source](https://github.com/potocpav/flat-earth/) · [Original Reddit post](https://www.reddit.com/r/flatearth/comments/1sey3nh/behold_an_actually_correct_flat_earth_model/)
 
 **Instead of round Earth in flat space, why not have flat Earth in round space?**
 
