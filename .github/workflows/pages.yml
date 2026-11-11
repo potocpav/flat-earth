@@ -1,0 +1,63 @@
+name: Publish README to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - "**/*.png"
+      - "**/*.jpg"
+      - "**/*.svg"
+      - .github/pages/**
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pandoc/actions/setup@v1
+
+      - name: Render README to HTML
+        run: |
+          mkdir -p _site
+          pandoc README.md \
+            -f gfm+tex_math_dollars -t html5 \
+            --standalone --mathjax \
+            --template .github/pages/template.html \
+            -M pagetitle="Actually Correct Flat-Earth Model" \
+            -o _site/index.html
+
+      - name: Copy images referenced by README
+        run: |
+          grep -oP '!\[[^]]*\]\(\K[^)]+' README.md \
+            | python3 -c 'import sys, urllib.parse; [print(urllib.parse.unquote(l.strip())) for l in sys.stdin]' \
+            | while IFS= read -r img; do cp --parents "$img" _site/; done
+          find _site -type f
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
